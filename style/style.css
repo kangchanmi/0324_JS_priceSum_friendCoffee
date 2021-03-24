@@ -1,0 +1,230 @@
+@charset "UTF-8";
+
+/*Reset 시작*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+/*Reset 끝*/
+
+/*GuideLine 시작*/
+/*div#wrap { border: 1px solid #000;}*/
+
+/*GuideLine 끝*/
+
+/*div#wrap 시작*/
+div#wrap {
+    width: 1215px;
+    margin: 0 auto;
+}
+
+/*div#wrap 끝*/
+
+/*header#header 시작*/
+header#header {
+    display: inline-block;
+}
+
+header#header img {
+    margin-left: 400px;
+}
+
+/*header#header 끝*/
+
+/*nav#lnb 시작*/
+nav#lnb {
+    margin-left: 880px;
+    display: inline-block;
+}
+
+nav#lnb ul {
+    display: flex;
+}
+
+nav#lnb ul li {
+    font-size: 13px;
+    margin: 10px;
+}
+
+/*nav#lnb 끝*/
+
+/*div#search 시작*/
+div#search {
+    text-align: right;
+    margin-bottom: 30px;
+}
+
+input.search {
+    width: 200px;
+    height: 30px;
+    background-image: url(../images/searchIcon_01.png);
+    background-repeat: no-repeat;
+    background-position: 180px 0px;
+    font-size: 19px;
+    border: none;
+    border-bottom: 1px solid #000;
+    outline: none;
+}
+
+#search input:focus-within {
+    border-bottom: 1px solid #d33434;
+}
+
+/*div#search 끝*/
+
+
+/*nav#gnb 시작*/
+nav#gnb {
+    width: 1215px;
+    height: 60px;
+    margin-bottom: 60px;
+    background-color: #3e4347;
+
+}
+
+#gnb ul {
+    display: flex;
+}
+
+#gnb ul a.ulImg {
+    padding: 0px 22px;
+    padding-top: 5px;
+    position: relative;
+    top: 10px;
+
+    display: inline-block;
+}
+
+#gnb ul li a:not(.ulImg) {
+    width: 145px;
+    margin-right: 0;
+    text-align: center;
+
+    line-height: 58px;
+
+    background-color: #3e4347;
+    border-top: none;
+    border-bottom: none;
+    border: 1px solid #35363c;
+
+    color: #fff;
+    font-weight: bold;
+    font-size: 14px;
+
+    display: inline-block;
+}
+
+#gnb ul li a:hover {
+    color: #f4fc1c;
+}
+
+/*nav#gnb 끝*/
+
+/*p.category 시작*/
+p.category {
+    font-size: 12px;
+    margin-bottom: 40px;
+}
+
+/*p.category 끝*/
+
+/*main#main 시작*/
+main#main {
+    display: flex;
+}
+
+#main #product {
+    padding: 55px 190px;
+    text-align: center;
+}
+
+#main img:first-child {
+    margin-bottom: 20px;
+}
+
+main#main p.closeUp {
+    display: inline-block;
+}
+
+/*main#delivery 시작*/
+#main #delivery {
+    padding: 55px 20px;
+}
+#delivery p.productName {
+    margin-bottom: 30px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 15px;
+}
+/*div#delInfo 시작*/
+#delInfo span {
+    margin: 20px;
+    font-size: 14px;
+    line-height: 24px;
+}
+#delInfo span:nth-child(5) {
+    font-weight: bold;
+    color: #d33439;
+}
+#delivery p.productName select {
+    display: inline-block;
+}
+#delInfo select {
+    width: 150px;
+    margin: 5px 20px 15px;
+    font-size: 14px;
+}
+
+/*div#price 시작*/
+#delInfo #price {
+    width: 320px;
+    margin-left: 20px;
+    margin-bottom: 8px;
+    padding: 3px;
+    text-align: right;
+    font-size: 14px;
+    border: 1px solid #ccc;
+}
+#delInfo #price button {
+    padding: 3px 6px;
+    margin-right: 8px;
+    font-size: 14px;
+    background-color: #ffda74;
+    border: none;
+}
+#price span {
+    margin: 5px;
+    font-weight: bold;
+    color: #d33439;
+}
+/*div#price 끝*/
+
+#snsIcon {
+    margin-left: 20px;
+    margin-bottom: 25px;
+}
+
+
+#order {
+    margin-left: 20px;
+}
+/*div#delInfo 끝*/
+/*main#delivery 끝*/
+/*main#main 끝*/
+
+
+
+header, main, nav, aside, footer, select {
+    display: block;
+}

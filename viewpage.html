@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="style/style.css">
+    <script src="script/jquery-3.6.0.min.js"></script>
+    <script src="script/script.js"></script>
+</head>
+
+<body>
+    <div id="wrap">
+        <nav id="lnb">
+            <ul>
+                <li><a href="#">LOGOUT</a></li>
+                <li><a href="#">MODIFY</a></li>
+                <li><a href="#">MYPAGE</a></li>
+                <li><a href="#">CART(o)</a></li>
+                <li><a href="#">ORDER</a></li>
+            </ul>
+        </nav> <!-- nav#lnb 끝 -->
+
+        <header id="header">
+            <a href="#"><img src="images/top_logo.jpg" alt="헤더로고" width="432"></a>
+        </header> <!-- header#header -->
+        <div id="search">
+            <input type="text" class="search">
+        </div> <!-- div#search -->
+
+        <nav id="gnb">
+            <ul>
+                <li><a href="#" class="ulImg"><img src="images/list_01.png" alt="메뉴" width="28"></a></li>
+                <li><a href="#">사업자도매물</a></li>
+                <li><a href="#">커피메이커</a></li>
+                <li><a href="#">드립용품</a></li>
+                <li><a href="#">컵&amp;글라스</a></li>
+                <li><a href="#">티용품</a></li>
+                <li><a href="#">원두커피&amp;시럽</a></li>
+                <li><a href="#">액세서리&amp;매장용품</a></li>
+                <li><a href="#">커뮤니티</a></li>
+            </ul>
+        </nav> <!-- nav#gnb -->
+
+        <p class="category">
+            home > 원두커피&amp;시럽 > 신선한 원두커피 > 프랜드 모카 블렌딩 커피 1kg
+        </p>
+        <hr>
+
+        <main id="main">
+            <div id="product">
+                <img src="images/detail.jpg" alt="상품사진" width="300">
+                <br>
+                <img src="images/icon_closeup.gif" alt="돋보기 이미지" width="15">
+                <p class="closeUp">큰 이미지 보기</p>
+            </div>
+
+            <div id="delivery">
+                <p class="productName">
+                    프랜드 모카 블렌딩 커피 1kg
+                </p>
+                <div id="delInfo">
+                    <span>적립금</span> <span>480 point</span>
+                    <br>
+                    <span>판매가격</span> <span>16,000원</span>
+                    <br>
+                    <span>분쇄도선택</span>
+
+                    <select id="grinding">
+                        <br>
+                        <option>--옵션 선택--</option>
+                        <option value="0">원두상태(홀빈) (+0원)</option>
+                        <option value="2000">더치커피용분쇄 (+2000원)</option>
+                        <option value="3000">드립커피용분쇄 (+3000원)</option>
+                    </select>
+
+                    <select id="cnt">
+                        <option>--수량 선택--</option>
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                        <option>6</option>
+                        <option>7</option>
+                        <option>8</option>
+                        <option>9</option>
+                        <option>10</option>
+
+                    </select>
+
+                    <div id="price">
+                        <button type="button">합계</button>총 상품 금액<span>0</span>원
+                    </div>
+                    <div id="snsIcon">
+                        <a href="#"><img src="images/scrap_btn_FB.gif" alt="페이스북아이콘" width="21"></a>
+                        <a href="#"><img src="images/scrap_btn_TW.gif" alt="트위터아이콘" width="21"></a>
+                    </div> <!-- div#snsIcon -->
+
+                    <div id="order">
+                        <a href="#"><img src="images/btn_order.gif" alt="주문하기버튼" width="86"></a>
+                        <a href="#"><img src="images/btn_cart_add.gif" alt="장바구니버튼" width="105"></a>
+                        <a href="#"><img src="images/btn_wish.gif" alt="찜하기버튼" width="81"></a>
+                    </div> <!-- div#order -->
+                </div>
+            </div>
+        </main>
+        <!--main#main -->
+    </div> <!-- div#wrap -->
+</body></html>
